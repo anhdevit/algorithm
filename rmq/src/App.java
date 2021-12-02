@@ -3,8 +3,7 @@ import java.io.InputStreamReader;
 
 public class App {
     public static void main(String[] args) throws Exception {
-Nguyễn Ngọc Lâm
-BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] lineOne = br.readLine().split(" ");
         int n = Integer.parseInt(lineOne[0]);
         int[] N = new int[n + 1];
