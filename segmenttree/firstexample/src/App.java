@@ -28,7 +28,7 @@ public class App {
             p.max_value = v;
             return;
         }
-        if (p.left.l <= i && i <= p.right.r) {
+        if (p.left.l <= i && i <= p.left.r) {
             update(p.left, i, v);
         } else {
             update(p.right, i, v);
